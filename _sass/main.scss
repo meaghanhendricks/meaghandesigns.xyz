@@ -1,0 +1,58 @@
+body {
+  background-color: #1D3737;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+//Containers and positioning
+section {
+  padding: 48px 0;
+
+  @media (min-width: 768px){
+    padding: 96px 0;
+  }
+
+  @media (min-width: 1024px){
+    padding: 120px 0;
+  }
+}
+
+.container {
+  padding: 0 16px;
+
+  @media (min-width: 1280px) {
+    max-width: 1216px;
+    margin: auto;
+  }
+}
+
+@media (min-height: 600px) and (min-width: 768px) {
+  .center-vh {
+    height: 100vh;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .vh-center {
+    padding-top: 0;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+main_nav:
+  - name: Work
+    link: /work.html
+  - name: About
+    link: /about.html
+
+footer:
+  - title: "Behance"
+    icon: "/assets/images/icons/behance.svg"
+    link: "https://www.behance.net/meaghanhendricks"
+  - title: "Dribbble"
+    icon: "/images/icons/dribbble.svg"
+    link: "https://dribbble.com/meaghanhendricks"
+  - title: "LinkedIn"
+    icon: "/images/icons/li.svg"
+    link: "https://www.linkedin.com/in/meaghanhendricks/"
