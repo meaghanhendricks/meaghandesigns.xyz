@@ -1,4 +1,5 @@
-name: Portfolio
+Title: Portfolio
+url: "https://meaghandesigns.xyz"
 
 plugins:
   - jekyll-sitemap
