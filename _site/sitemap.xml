@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://meaghandesigns.xyz/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://meaghandesigns.xyz/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://meaghandesigns.xyz/assets/downloads/Resume_MH21.pdf</loc>
+<loc>http://localhost:4000/assets/downloads/Resume_MH21.pdf</loc>
 <lastmod>2021-05-28T15:39:20-07:00</lastmod>
 </url>
 </urlset>
