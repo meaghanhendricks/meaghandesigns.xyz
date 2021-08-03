@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon" />
     <link rel="stylesheet" href="/assets/css/styles.css">
   </head>
   <body>
@@ -16,7 +16,14 @@
              <p>This portfolio site  is currently a work in progress. While I take my time getting my shit together, you can view my work at <a href="https://www.behance.net/meaghanhendricks">behance</a>  or <a href="https://dribbble.com/meaghanhendricks">dribbble</a>.</p>
            </div>
          </section>
-         {% include footer.html %}
+         <footer>
+           <div class="container flex space-between">
+             <div class="social-icons">
+                 <a href="#" rel="nofollow" > <img href="/assets/images/icons/behance.svg" alt="behance"> </a>
+             </div>
+             <a class="footer-link" href="#">Download resume</a>
+           </div>
+         </footer>
        </div>
     </div>
   </body>

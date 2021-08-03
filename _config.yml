@@ -1,5 +1,8 @@
 Title: Portfolio
-url: "https://meaghandesigns.xyz"
-
+url: https://meaghandesigns.xyz
+domain: meaghandesigns.xyz
+baseurl: ""
+markdown: kramdown
+encoding: UTF-8
 plugins:
   - jekyll-sitemap

@@ -2,7 +2,7 @@
   <div class="container flex space-between">
     <div class="social-icons">
       {% for item in site.data.navigation.footer %}
-        <a href="{{ item.link }}" rel="nofollow" class="relative social-icon"> <img href="{{ item.icon }}" alt="{{ item.title }}"> </a>
+        <a href="{{ item.link }}" rel="nofollow" > <img href="{{item.icon | relative_url}}" alt="{{ item.title }}"> </a>
       {% endfor %}
     </div>
     <a class="footer-link" href="#">Download resume</a>
