@@ -56,3 +56,24 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+
+.hairline {
+  border-top: 4px solid #000000;
+  opacity: .25;
+  margin-bottom: 32px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+  display: inline-block;
+  margin-right: 32px;
+  transition: all 400ms ease-in-out;
+}
+
+.social-icon:hover, .social-icon:active{
+  opacity: .5;
+}

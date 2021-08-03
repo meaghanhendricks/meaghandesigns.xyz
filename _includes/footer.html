@@ -1,10 +1,13 @@
 <footer>
-  <div class="container flex space-between">
-    <div class="social-icons">
-      {% for item in site.data.navigation.footer %}
-        <a href="{{ item.link }}" rel="nofollow" > <img href="{{item.icon | relative_url}}" alt="{{ item.title }}"> </a>
-      {% endfor %}
+  <div class="container">
+    <div class="hairline"></div>
+    <div class="flex space-between">
+      <div class="social-icons">
+        {% for item in site.data.navigation.footer %}
+          <a href="{{ item.link }}" rel="nofollow" class="social-icon"> <img src="{{ item.icon }}" alt="{{ item.title }}"> </a>
+        {% endfor %}
+      </div>
+      <p><a class="footer-link" href="/assets/downloads/Resume_MH21.pdf" download>Download resume →</a></p>
     </div>
-    <a class="footer-link" href="#">Download resume</a>
   </div>
 </footer>

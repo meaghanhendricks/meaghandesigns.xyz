@@ -6,7 +6,7 @@ main_nav:
 
 footer:
   - title: "Behance"
-    icon: "https://meaghandesigns.xyz/assets/images/icons/behance.svg"
+    icon: "/assets/images/icons/behance.svg"
     link: "https://www.behance.net/meaghanhendricks"
   - title: "Dribbble"
     icon: "/assets/images/icons/dribbble.svg"
