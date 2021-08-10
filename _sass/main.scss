@@ -48,13 +48,12 @@ section {
   position: relative;
 }
 
-.flex {
-  display: flex;
-}
-
-.space-between {
-  justify-content: space-between;
-  align-items: center;
+@media (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .hairline {
@@ -70,10 +69,37 @@ section {
 
 .social-icon {
   display: inline-block;
-  margin-right: 32px;
+  margin-right: 24px;
   transition: all 400ms ease-in-out;
+}
+
+.social-icon img  {
+  height: 20px;
+  max-width: 25px;
+}
+
+@media (min-width: 768px) {
+  .social-icon img  {
+    height: auto;
+    max-width: unset;
+  }
+
+  .social-icon {
+    margin-right: 32px;
+  }
 }
 
 .social-icon:hover, .social-icon:active{
   opacity: .5;
+}
+
+footer {
+  padding-bottom: 16px;
+}
+
+@media (min-height: 600px) and (min-width: 768px) {
+
+  footer {
+    padding-bottom: 0;
+  }
 }
