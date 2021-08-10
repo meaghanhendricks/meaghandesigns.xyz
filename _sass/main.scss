@@ -56,6 +56,41 @@ section {
   }
 }
 
+div.stamps {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 10;
+  width: 24px;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  div.stamps {
+    width: 48px;
+  }
+}
+
+div.stamps img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    animation: fade-out 2s ease-in-out forwards;
+    animation-delay: 3s;
+    width: 100%;
+}
+
+@keyframes fade-out {
+  from {
+    opacity:1;
+  } to {
+    opacity:0;
+  }
+}
+
+audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+
 .hairline {
   border-top: 4px solid #000000;
   opacity: .3;
